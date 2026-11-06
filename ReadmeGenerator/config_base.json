@@ -1,0 +1,92 @@
+[
+    {
+        "type": "config",
+        "data": {
+            "githubUser": "miguelnavarrosc",
+            "categories": [
+                {
+                    "name": "Automation",
+                    "emoji": "⚙️",
+                    "tag": "automation"
+                },
+                {
+                    "name": "FullStack & Architecture",
+                    "emoji": "🏛️",
+                    "tag": "fullstack"
+                },
+                {
+                    "name": "AI & Generative AI",
+                    "emoji": "🧠",
+                    "tag": "ai"
+                },
+                {
+                    "name": "Research & Frontier Lab",
+                    "emoji": "🔬",
+                    "tag": "research"
+                }
+            ]
+        }
+    },
+    {
+        "type": "intro",
+        "data": "Hello, I'm Miguel Ángel Navarro Inga! 👋"
+    },
+    {
+        "type": "description",
+        "data": "<em>Software Engineer specializing in Process Automation (RPA & API Integration), Full Stack Architecture, AI Engineering (Generative AI & Machine Learning), and Frontier Computing Research.</em>"
+    },
+    {
+        "type": "categories",
+        "data": {}
+    },
+    {
+        "type": "techStack",
+        "data": {
+            "title": "Tech Stack ⌨",
+            "right_image": {
+                "image": "https://skillicons.dev/icons?i=python,java,ts,docker",
+                "link": "https://github.com/miguelnavarrosc"
+            },
+            "tech": [
+                "Python (Automation, Scripting & Backend) ⭐",
+                "Process Automation & RPA (Playwright, Selenium, BeautifulSoup) ⭐",
+                "API Integration & Webhooks ⭐",
+                "Java ⭐",
+                "TypeScript & JavaScript ⭐",
+                "SQL & Relational Databases (PostgreSQL, MySQL) ⭐",
+                "Software Architecture & Clean Code ⭐",
+                "Machine Learning & Generative AI ⭐",
+                "Docker & Containerization ⭐",
+                "HTML5 & CSS3",
+                "Git & GitHub Actions"
+            ]
+        }
+    },
+    {
+        "type": "space",
+        "data": {}
+    },
+    {
+        "type": "social",
+        "data": {
+            "title": "@<div align=\"center\">\n<h3 align=\"center\">Let's connect 🤝</h3>\n</div>",
+            "social": [
+                {
+                    "alt": "Miguel's LinkedIn",
+                    "url": "https://www.linkedin.com/in/miguel-angel-navarro-inga-773162269/",
+                    "image": "https://github.com/miguelnavarrosc/miguelnavarrosc/blob/main/img/linkedin-icon.svg?raw=true"
+                },
+                {
+                    "alt": "Miguel's Email",
+                    "url": "mailto:miguelnavarro2020sc@gmail.com",
+                    "image": "https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"
+                },
+                {
+                    "alt": "Miguel's GitHub",
+                    "url": "https://github.com/miguelnavarrosc",
+                    "image": "https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"
+                }
+            ]
+        }
+    }
+]

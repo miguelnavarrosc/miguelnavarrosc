@@ -1,0 +1,40 @@
+# GitHub Action to optionally generate category files or update README
+name: CI
+
+on:
+  # Enabled only on manual trigger from Actions tab to protect custom README
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: ReadmeGenerator/requirements.txt
+
+      - name: Generate static files
+        run: |
+          cd ReadmeGenerator
+          pip install -r requirements.txt
+          python main.py
+          cd ..
+          
+      - name: Commit changes
+        run: |
+          git config --global --add safe.directory /github/workspace
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --cached --quiet || git commit -m 'deploy'
+
+      - name: Push to main
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          directory: ./

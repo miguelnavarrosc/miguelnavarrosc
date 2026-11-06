@@ -1,0 +1,51 @@
+[
+    {
+        "type": "intro",
+        "data": "Miguel Navarro's -category- projects! 🚀"
+    },
+    {
+        "type": "description",
+        "data": "<em>Projects and implementations related to -category-.</em>"
+    },
+    {
+        "type": "categories",
+        "data": {}
+    },
+    {
+        "type": "awesomeProjects",
+        "data": {
+            "title": "-category- Projects -emoji-",
+            "count": 9999,
+            "showEmojis": true,
+            "showScore": false,
+            "ignore_pinned": false
+        }
+    },
+    {
+        "type": "space",
+        "data": {}
+    },
+    {
+        "type": "social",
+        "data": {
+            "title": "@<div align=\"center\">\n<h3 align=\"center\">Let's connect 🤝</h3>\n</div>",
+            "social": [
+                {
+                    "alt": "Miguel's LinkedIn",
+                    "url": "https://www.linkedin.com/in/miguel-angel-navarro-inga-773162269/",
+                    "image": "https://github.com/miguelnavarrosc/miguelnavarrosc/blob/main/img/linkedin-icon.svg?raw=true"
+                },
+                {
+                    "alt": "Miguel's Email",
+                    "url": "mailto:miguelnavarro2020sc@gmail.com",
+                    "image": "https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"
+                },
+                {
+                    "alt": "Miguel's GitHub",
+                    "url": "https://github.com/miguelnavarrosc",
+                    "image": "https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"
+                }
+            ]
+        }
+    }
+]
